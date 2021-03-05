@@ -82,7 +82,7 @@ const getDeveloperById = (req, res) => {
         res.send(developers);
 }
 
-// function to get info of all users
+// Function to get info of all users
 const getDevelopers = (req, res) => {
     res.send(usersInformation[req.params.developer]);
 };
